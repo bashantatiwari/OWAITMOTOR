@@ -6,7 +6,8 @@
   margin: 0px;
 }
 
-button {
+button,
+.btn {
   background-color: #305093;
   color: white;
   padding: 10px 20px;
@@ -90,7 +91,7 @@ header #company-logo {
   height: 100%;
 }
 header #navigation-links {
-  width: 45%;
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
