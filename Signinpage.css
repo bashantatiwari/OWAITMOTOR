@@ -1,0 +1,26 @@
+.mainbar {
+  width: 40%;
+}
+.signinform-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.signinform-userinput {
+  width: 45%;
+}
+.user-input {
+  height: auto;
+  width: 95%;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+#signinform-fifthpart-firstcontent {
+  display: flex;
+  gap: 30px;
+}
+button {
+  margin: 30px 0px;
+}

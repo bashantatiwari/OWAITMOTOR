@@ -1,0 +1,191 @@
+.hero {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 287px;
+  background-color: black;
+  color: white;
+  /* background-image: url(); */
+}
+/* section*/
+section {
+  padding: 20px 100px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+#section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-1 div {
+  /* background-image: url(); */
+  text-align: center;
+}
+.cardsContainer {
+  display: grid;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 19px;
+  margin-bottom: 30px;
+}
+.card {
+  background-color: white;
+  color: black;
+  padding: 20px 10px;
+  border-radius: 12px;
+  text-align: center;
+  height: 100%;
+}
+#section-2 .cardsContainer {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#section-2 .card h3 {
+  margin-bottom: 29px;
+}
+#section-2 .card ul {
+  padding-left: 10px;
+}
+#section-2 .card ul li {
+  list-style-type: disc !important;
+  list-style-position: unset;
+  text-align: left;
+}
+#section-3 .cardsContainer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#section-3 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-4 .cardsContainer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#section-4 .card .imageContainer {
+  width: 157px;
+  height: 108px;
+}
+#section-4 .card hr {
+  margin: 30px auto;
+  height: 1px;
+  width: 157px;
+}
+#section-4 .card h3 {
+  margin-bottom: 8px;
+}
+#section-4 .card .details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#section-5 .box {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-direction: column;
+  margin-bottom: 38px;
+}
+
+#section-5 .cardsContainer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#section-5 .card .imageContainer {
+  width: 250px;
+  height: 151px;
+}
+#section-5 .card {
+  text-align: left;
+  padding: 20px;
+}
+#section-5 .card h3 {
+  margin: 25px 0px;
+}
+
+#section-3,
+#section-4 {
+  background-color: #d0e8ef;
+}
+
+@media screen and (max-width: 800px) {
+  h1,
+  .heading-first {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  h2,
+  .heading-second {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  h3,
+  .heading-third {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  body {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .smallbody {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  header {
+    padding: 10px 40px;
+  }
+  header #company-logo {
+    max-width: 66px;
+    aspect-ratio: 16/9;
+  }
+  nav {
+    display: none;
+  }
+  header button#toggleBar {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  .heading {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .hero > h2 {
+    font-size: 15px;
+  }
+  article {
+    padding: 0px;
+  }
+  .hero {
+    text-align: center;
+    height: 80px;
+  }
+  section {
+    padding: 10px 40px;
+  }
+  .cardsContainer {
+    column-gap: 11px;
+    row-gap: 32px;
+  }
+  #section-1 > div > p {
+    margin-bottom: 16px;
+  }
+  #section-2 .cardsContainer {
+    grid-template-columns: none;
+  }
+  #section-3 .cardsContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  #section-4 .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+  #section-5 .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+}

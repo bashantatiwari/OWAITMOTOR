@@ -1,0 +1,44 @@
+.hero-image-of-blog-section {
+  background-image: url('./images/blog-image.svg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 25vh;
+}
+.blog-page-content {
+  display: flex;
+  padding: 20px 10%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.card {
+  height: 100%;
+  width: 30%;
+  margin: 30px 20px;
+}
+.card img,
+.small-body,
+.blog-content,
+.blog-readmore-btn {
+  width: 100%;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.view-more-blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-more-blog .btn {
+  width: auto;
+}
+.blog-writing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d0e8ef;
+  padding: 30px 10%;
+  margin: 80px 0px;
+}

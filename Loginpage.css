@@ -1,0 +1,21 @@
+.form-third-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-fourth-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+.form-fourth-part-first-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.redirecting-to-signin-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

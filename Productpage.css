@@ -1,0 +1,95 @@
+.product-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 10% 0px;
+}
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10%;
+  width: 100vw;
+}
+.product-mainbar {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+#change-image-per-click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-switch {
+  display: flex;
+  justify-content: space-between;
+}
+.product-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-model-price {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.product-specs {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.product-full-specification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px 5px;
+  background-color: #d2ebf4;
+}
+.product-full-detail-purchase-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.product-sidebar {
+  width: 30%;
+  height: 400px;
+  overflow: auto;
+}
+.cards {
+  margin-top: 30px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.car-card-image {
+  width: 100%;
+  height: 200px;
+}
+.car-type-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.car-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.car-specs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.content-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
